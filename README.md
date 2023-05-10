@@ -3,7 +3,7 @@
   
 <br>
 <br>
-DAWAIK  Dashboard Store E-commerce
+DAWAIK  Dashboard Pharmacy E-commerce
 </h1>
 
 <p align="center">

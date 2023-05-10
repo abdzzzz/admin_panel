@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="assets/GreenLogo.png" alt="DAWAIK" width="120">
+  
 <br>
 <br>
 DAWAIK Store E-commerce

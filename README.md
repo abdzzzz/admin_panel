@@ -24,8 +24,7 @@ DAWAIK Dashboard is an application for admins to take orders and contact clients
 
 1. Clone this repo using `https://github.com/abdzzzz/admin_panel.git`
 2. Open Folder By **VS Code**<br />
-3. Run `Flutter run -d chrome - -web renderer html` in **terminal** to install dependencies<br />
-5. make sure you enable **Developer Mode** in your Device
+3. Run `Flutter run -d chrome --web renderer html` in **terminal** to install dependencies<br />
 6. Open Folder**lib** Then open **main**file and Press **CTRL+R**in Windows or**Command+R**in Mac
 
 

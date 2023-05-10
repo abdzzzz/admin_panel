@@ -23,9 +23,9 @@ class _AllOrdersScreenState extends State<AllOrdersScreen> {
     return Scaffold(
       key: context.read<MenuControllerr>().getOrdersScaffoldKey,
       drawer: const SideMenu(),
-      body: SafeArea(
-        child: Directionality(
-          textDirection: TextDirection.rtl,
+      body: Directionality(
+        textDirection: TextDirection.rtl,
+        child: SafeArea(
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -43,22 +43,24 @@ class _AllOrdersScreenState extends State<AllOrdersScreen> {
                     controller: ScrollController(),
                     child: Column(
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Header(
-                            fct: () {
-                              context.read<MenuControllerr>().controlAllOrder();
-                            },
-                            title: 'الطلبات',
-                            showTexField: true,
-                          ),
+                        const SizedBox(
+                          height: 25,
+                        ),
+                        Header(
+                          fct: () {
+                            context.read<MenuControllerr>().controlAllOrder();
+                          },
+                          title: 'All Orders',
+                          showTexField: false,
                         ),
                         const SizedBox(
                           height: 20,
                         ),
                         const Padding(
                           padding: EdgeInsets.all(8.0),
-                          child: OrdersList(),
+                          child: OrdersList(
+                            isInDashboard: false,
+                          ),
                         ),
                       ],
                     ),

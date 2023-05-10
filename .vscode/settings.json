@@ -5,5 +5,7 @@
         "getgridscaffold",
         "Menucontroller",
         "أدوية"
-    ]
+    ],
+    "cmake.sourceDirectory": "C:/Users/ABDALRHMAN/admin_panel/linux",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

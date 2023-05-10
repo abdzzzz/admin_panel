@@ -55,5 +55,37 @@
       });
     });
   </script>
+
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+
+// ...
+
+<script defer src="./init-firebase.js"></script>
+
+// ...
+
+<script defer src="./init-firebase.js"></script>
+  <script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyDWC5aHX6AQVQSkM-wm10fA6EIMLY11fqY",
+    authDomain: "prts-635dc.firebaseapp.com",
+    projectId: "prts-635dc",
+    storageBucket: "prts-635dc.appspot.com",
+    messagingSenderId: "306313957592",
+    appId: "1:306313957592:web:665c8cf686f38f609607ad",
+    measurementId: "G-RKJ0SYTZXZ"
+  };
+
+
+  // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytic();
+</script>
 </body>
 </html>

@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "306313957592",
+    "project_id": "prts-635dc",
+    "storage_bucket": "prts-635dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306313957592:android:56b7506bf35564fc9607ad",
+        "android_client_info": {
+          "package_name": "com.example.admin_panel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306313957592-cc8ldejg31kar94ju0idru2l1qetu4ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvMTIMBCzLhIPddGd_tgJdjrVJWK7Y_1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306313957592-cc8ldejg31kar94ju0idru2l1qetu4ag.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "306313957592-efjgts4nnsj7ei25d2q26mlpen8vd6qq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.adminPanel"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306313957592:android:30d2f3d830db4e6c9607ad",
+        "android_client_info": {
+          "package_name": "com.example.pr_test1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306313957592-cc8ldejg31kar94ju0idru2l1qetu4ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvMTIMBCzLhIPddGd_tgJdjrVJWK7Y_1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306313957592-cc8ldejg31kar94ju0idru2l1qetu4ag.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "306313957592-efjgts4nnsj7ei25d2q26mlpen8vd6qq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.adminPanel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

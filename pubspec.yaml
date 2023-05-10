@@ -33,12 +33,16 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
-  dotted_border:
-  image_picker:
   provider: ^6.0.2
   shared_preferences: ^2.0.13
   iconly: ^1.0.1
-
+  dotted_border: ^2.0.0+2
+  image_picker: ^0.8.5
+  uuid: ^3.0.6
+  fluttertoast: 
+  firebase_core: ^2.11.0
+  cloud_firestore: 
+  firebase_storage: 
 dev_dependencies:
   flutter_test:
     sdk: flutter
